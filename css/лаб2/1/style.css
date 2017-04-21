@@ -1,0 +1,21 @@
+h1 {
+    font-family: verdana, arial, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+
+p {
+    font: italic normal bold 30px arial, sans-serif;
+}
+
+h2 {
+    font-family: verdana, arial, sans-serif;
+    font-variant: small-caps;
+    font-size: 24px;
+    color: blue;
+}
+
+div {
+    font-family: verdana, arial, sans-serif;
+    font-weight: bold;
+}

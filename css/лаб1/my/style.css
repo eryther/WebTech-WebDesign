@@ -1,0 +1,12 @@
+h2 {
+	color: orange;
+	background-color: rgb(1%, 2%, 3%);
+}
+
+p {
+	color: #00008B;
+}
+
+body {
+	background: #ccf url(asfalt-dark.png) fixed;
+}

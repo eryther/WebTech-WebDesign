@@ -1,0 +1,15 @@
+ol {
+    list-style-type: square;
+    list-style-position: inside;
+    color: darkred;
+    text-decoration: line-through;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: lower-alpha;
+    list-style-position: outside;
+    color: darkgreen;
+    text-decoration: underline;
+    font-size: 30px;
+}

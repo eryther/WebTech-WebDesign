@@ -1,0 +1,12 @@
+h2 {
+	color: blue;
+	background-color: green;
+}
+
+p {
+	color: black;
+}
+
+body {
+	background: #f7f8df url(pingvin.png)no-repeat fixed top left;
+}

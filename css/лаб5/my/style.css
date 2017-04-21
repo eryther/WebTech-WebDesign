@@ -1,0 +1,36 @@
+h1 {
+    text-align: right;
+    text-decoration: overline;
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: darkred;
+    text-transform: capitalize;
+    letter-spacing: 7px;
+}
+
+h3 {
+    text-align: justify;
+    text-decoration: line-through;
+    color: pink;
+    text-transform: lowercase;
+    letter-spacing: 10px;
+}
+
+p {
+    text-align: justify;
+    color: darkblue;
+    text-transform: none;
+    letter-spacing: -3px;
+    text-indent: 25px;
+    word-spacing: 10px;
+}
+
+body {
+    background-color: orange;
+}

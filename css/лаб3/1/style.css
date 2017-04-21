@@ -1,0 +1,9 @@
+ol {
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
+ul {
+    /*list-style: circle inside url(point.png);*/
+    list-style-type: lower-greek;
+}

@@ -1,0 +1,25 @@
+.p1	{
+background-color : #FF00CC;
+border: 5px solid black;
+margin: 35px;
+
+}
+.p2{
+	background-color : #FF00CC;
+border: 5px solid black;
+padding: 35px;
+}
+.p3{
+	background-color : #FF00CC;
+border: 5px solid black;
+margin: 35px;
+padding: 35px;
+}
+p{
+padding: 25px;
+padding-top:40px;
+background-color: #cff;
+}
+body{
+background: #355;
+}

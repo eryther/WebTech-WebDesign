@@ -1,0 +1,32 @@
+body {
+    background-color: grey;
+}
+
+hr {
+    border-color: red;
+    border-width: 12px;
+    border-radius: 12px;
+}
+
+h1 {
+    font-family: arial, verdana, sans-serif;
+    font-style: oblique;
+    font-size: 32px;
+    color: lime;
+}
+
+p {
+    font: italic normal bold 20px verdana, arial, sans-serif;
+}
+
+h2 {
+    font-family: verdana, arial, sans-serif;
+    font-variant: small-caps;
+    font-size: 24px;
+    color: orange;
+}
+
+div {
+    font-family: verdana, arial, sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,22 @@
+.p1 {
+    background-color: #FFFFCC;
+    border: 1px solid blue;
+    margin: 70px;
+}
+
+.p2 {
+    background-color: #FFFFCC;
+    border: 1px solid blue;
+    padding: 70px;
+}
+
+.p3 {
+    background-color: #FFFFCC;
+    border: 1px solid blue;
+    margin: 50px;
+    padding: 20px;
+}
+
+p {
+    margin: 50px 50px 50px 150px;
+}
