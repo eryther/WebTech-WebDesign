@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+}
+body, html {
+	width: 100%;
+	height: 100%;
+}
+.back {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	background-color: #54463d;
+}
+.header {
+	position: relative;
+	height: 10%;
+	background-color: #2D8A76;
+	z-index: 3;
+	display: table-caption;
+	box-shadow: 0 5px 10px #000;
+}
+
+.header_content {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.header_content ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.header_content li {
+  display: inline;
+}
+
+.header_content a {
+  color: #54463d;
+  padding: 19px 9px 9px 9px;
+  font-size: 36px;
+  text-decoration: none;
+  line-height: 60px;
+}
+
+.header_content a:hover {
+  text-decoration: underline;
+}
+
+.main_screen {
+	position: relative;
+	width:94%;
+	min-height:86%;
+	z-index: 1;
+	margin-left: 3%;
+	margin-right: 3%;
+	display: table;
+	box-shadow: 0 5px 10px #000;
+}
+
+.content{
+	position: relative;
+	width:74%;
+	z-index: 2;
+	padding: 3%;
+	background-color: #fff;
+	display: table-cell;
+}
+
+.content_image {
+	margin-right: 15px;
+	margin-bottom: 15px;
+	width:305px;
+	height:192px;
+	box-shadow: 5px 5px 10px #000;
+	float: left;
+}
+
+.main_content_btn a{
+	width:200px;
+	height:45px;
+	padding-top:3px;
+	padding-bottom: 3px;
+	text-align: center;
+	font-size: 30px;
+	color: #54463d;
+	border-radius: 3px;
+	text-decoration: none;
+	box-shadow: 5px 5px 10px #000;
+	background-color: #2D8A76;
+	float: right;
+	margin:15px;
+}
+
+.main_content_btn a:hover{
+	box-shadow: 0 0 0 #000;
+}
+
+.right_column{
+	position: relative;
+	width: 18%;
+	z-index: 2;
+	padding-bottom: 3%;
+	padding-top: 3%;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: #B9D4CE;
+	display: table-cell;
+}
+
+.right_column_audio{
+	position: relative;
+	width: 100%;
+}
+
+.right_column_audio_p{
+	margin-top:10px;
+}
+
+h3 {
+	margin-top: 15px;
+}
+
+.content_video{
+	display: table;
+	background-color: #fff;
+	padding: 3%;
+}
+
+.main_content_video {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+iframe {
+	margin-top: 15px;
+}
+
+.footer {
+	position: relative;
+	width: 94%;
+	height: 5%;
+	z-index: 0;
+	margin-right: 3%;
+	margin-left: 3%;
+	background-color: #2D8A76;
+	float: right;
+}
