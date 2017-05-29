@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Slab|Ubuntu');
+
 * {
 	margin: 0;
 }
@@ -5,6 +7,19 @@ body, html {
 	width: 100%;
 	height: 100%;
 }
+
+a {
+	font-family: 'Oswald', sans-serif;
+}
+
+p, li {
+	font-family: 'Roboto Slab', serif;
+}
+
+h2,h3 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
 .back {
 	position: fixed;
 	width: 100%;
@@ -73,6 +88,16 @@ body, html {
 	margin-bottom: 15px;
 	width:305px;
 	height:192px;
+	box-shadow: 5px 5px 10px #000;
+	float: left;
+}
+
+.content_contacts_image{
+	display: table-cell;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	width:300px;
+	height:300px;
 	box-shadow: 5px 5px 10px #000;
 	float: left;
 }
@@ -147,4 +172,31 @@ iframe {
 	margin-left: 3%;
 	background-color: #2D8A76;
 	float: right;
+	display: table;
+}
+.main_content_ul{
+	margin-left:290px;
+}
+
+.main_content_ul a {
+	color: #2D8A76;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.footer_p {
+	color: #54463d;
+	font-size: 15px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+h2 a {
+	color: #000;
+	text-decoration: none;
+}
+
+.main_content_p, .main_contacts_content_p{
+	text-indent: 15px;
 }
