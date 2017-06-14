@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>array</title>
+<script language="JavaScript">
+edu=new Array("Физика","Математика","Информатика","Английский","География","История");
+function nonGumanitar(){
+  nonGumanitar=new Array();
+  nonGumanitar=edu.slice(0,3);
+  document.write('<h1>Точные науки: </h1><br>'); 
+  document.write(nonGumanitar+"<br>");
+}
+function gumanitar(){
+  gumanitar=new Array();
+  gumanitar=edu.slice(3);
+  document.write('<h1>Гуманитарные науки: </h1><br>'); 
+  document.write(gumanitar+"<br>");
+}
+</script>
+</head>
+<body onload="nonGumanitar(); gumanitar();">
+</body>
+</html>

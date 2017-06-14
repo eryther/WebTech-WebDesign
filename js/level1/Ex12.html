@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <script>
+    function first() {
+      userChoose=confirm('Для загрузки документа требуется программа Acrobat. Продолжить загрузку?');
+      if (userChoose==true) {
+        location="lab3.pdf";
+      }
+    }
+    function second() {
+      document.write('<style>*{background-color:red;}</style>');
+    }
+  </script>
+</head>
+<body>
+  <a href="#" onclick="first()">PDF</a><br>
+  <a href="#" onmouseenter="second()">color</a>
+</body>
+</html>
