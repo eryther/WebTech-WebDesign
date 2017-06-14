@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <script>
+    secretNumber=7;
+    userNumber=prompt('Введите число: ','');
+    if (userNumber==secretNumber) {
+      alert('Правильно. Число угадано');
+    } else if (userNumber<secretNumber) {
+      alert('Неправильно. Искомое число меньше введенного. Попробуйте еще раз');
+      location.reload();
+    } else if (userNumber>secretNumber) {
+      alert('Неправильно. Искомое число больше введенного. Попробуйте еще раз');
+      location.reload();
+    }
+  </script>
+</head>
+<body>
+  
+</body>
+</html>

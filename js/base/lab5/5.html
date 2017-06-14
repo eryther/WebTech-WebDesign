@@ -1,0 +1,20 @@
+<html>
+<body>
+<script type='text/javascript'>
+//Определяем какой сегодня день (Воскресенье=0, Понедельник=1, Среда=3, Суббота=6 и т.д.).
+dat=new Date(); 
+day=dat.getDay();
+//И в зависимости от этого выводим сообщения
+switch(day){
+  case 6:
+    document.write('<h2>'+'Сегодня выходной!'+'</h2>');
+  break;
+  case 0:
+    document.write('<h2>'+'Сегодня выходной!'+'</h2>');
+  break;
+  default:
+    document.write('<b>'+'Сегодня Вам нужно идти на работу...'+'</b>');
+}
+</script>
+</body>
+</html>

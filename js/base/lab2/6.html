@@ -1,0 +1,24 @@
+<html>
+<head>
+<script type='text/javascript'>
+//Объявим глобальные переменные var1 и var2
+var var1="var1 существует";
+var var2;
+
+function func1() {
+   //Присвоим var2 значение внутри функции func1
+   var var2="var2 существует";
+}
+//Из другой функции выведем содержимое переменной var1 и var2 на страницу
+function func2() {
+   //Выводим содержимое переменной var1
+   document.write(var1 + '<br />');
+   //Выводим содержимое переменной var2
+   document.write(var2);
+}
+</script>
+</head>
+<!-- Вызовем функцию func2() после полной загрузки документа -->
+<body onload='func2()'>
+</body>
+</html>

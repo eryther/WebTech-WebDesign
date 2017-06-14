@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script>
+    login=prompt('login: ','');
+    if (login=="Админ") {
+      pwd=prompt('password: ','');
+      if (pwd=="Чёрный Властелин") {
+        alert("Добро пожаловать!");
+      } else if (pwd==null) {
+         alert("Вход отменен!");
+       } else alert('Пароль неверен');
+    } else if (login==null) {
+      alert("Вход отменен!");
+    } else alert('Я Вас не знаю!');
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
