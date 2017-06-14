@@ -3,28 +3,28 @@
   <meta charset="UTF-8">
   <script>
   function formCheck() {
-    if (form.name.value==null) {
+    var form=document.forms.my;
+    if (form.name.value=='') {
       alert('Заполните имя');
-      if (form.pwd.value==null && form.pwd.length<=4) {
-        alert('Заполните пароль(должен быть больше 4х символов)');
-        if (form.pwdCheck.value!=form.pwd.value) {
-          alert('Пароли не совпадают');
-        }
-      }
+    } else if (form.pwd.value=='') {
+      alert('Заполните пароль (минимум 4 символа)');
+    } else if (form.pwdCheck.value!=form.pwd.value) {
+      alert('Пароли не совпадают!');
+    } else if (form.email.value.indexOf('@', 0) == -1) {
+      alert('Некорректный email!');}
     }
-  }
 
   </script>
 </head>
 <body>
-<form method="post" onsubmit="return checkForm(this)" action="/">
-  Ваше имя: *<input type="text" id="name"><br>
-  Пароль *<input type="password"  id="pwd"><br>
-  Подтверждение пароля *<input type="password" id="pwdCheck"><br>
-  Электронный адрес: *<input type="text" id="email"><br>
+<form onsubmit="formCheck()" action="" name="my">
+  Ваше имя: *<input type="text" name="name" ><br>
+  Пароль *<input type="password"  name="pwd" minlength="4" required=""><br>
+  Подтверждение пароля *<input type="password" name="pwdCheck" minlength="4" required=""><br>
+  Электронный адрес: *<input type="text" name="email" required=""><br>
   Тема сообщения: <input type="text"><br>
-  Сообщение: <textarea name="" id="" cols="30" rows="10"></textarea><br>
-  <input type="submit" onclick="formCheck()">
+  Сообщение: <textarea name="msg" minlength="10" cols="30" rows="10"></textarea><br>
+  <input type="submit">
   <input type="reset"><br>
 </form>
   * - необходимые для заполнения поля
