@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <script>
+  function formCheck() {
+    if (form.name.value==null) {
+      alert('Заполните имя');
+      if (form.pwd.value==null && form.pwd.length<=4) {
+        alert('Заполните пароль(должен быть больше 4х символов)');
+        if (form.pwdCheck.value!=form.pwd.value) {
+          alert('Пароли не совпадают');
+        }
+      }
+    }
+  }
+
+  </script>
+</head>
+<body>
+<form method="post" onsubmit="return checkForm(this)" action="/">
+  Ваше имя: *<input type="text" id="name"><br>
+  Пароль *<input type="password"  id="pwd"><br>
+  Подтверждение пароля *<input type="password" id="pwdCheck"><br>
+  Электронный адрес: *<input type="text" id="email"><br>
+  Тема сообщения: <input type="text"><br>
+  Сообщение: <textarea name="" id="" cols="30" rows="10"></textarea><br>
+  <input type="submit" onclick="formCheck()">
+  <input type="reset"><br>
+</form>
+  * - необходимые для заполнения поля
+</body>
+</html>
